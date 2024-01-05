@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                FAJIL
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#aboutSection" id="navItem1">About</a>
+                    <a class="nav-link" href="#projectSection" id="navItem2">Projects</a>
+                    <a class="nav-link" href="#contactSection" id="navItem3">contacts</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Hello, my name is MD Fajil Ansari</h1>
+            <p class="banner-caption mb-4">I am a frontend developer .For the forntend I have learnt HTML,CSS, JAVASCRIPT and REACT JS</p>
+            <a class="nav-link " href="#projectSection" id="navItem2">Projects</a>
+            <button class="custom-outline-button">Linkedln</button>
+        </div>
+        <section id="projects" class="m-5">
+            <h2 class="add-pro">Add Projects</h2>
+            <button id="toggleProjects" class="show-pro">Show Projects</button>
+            <div id="projectList" class="hidden">
+            </div>
+            <div id="addProjectForm">
+                <form id="projectForm">
+                    <label for="projectTitle" class="label">Title:</label>
+                    <br>
+                    <input type="text" id="projectTitle" class="input" required />
+                    <br>
+                    <label for="projectDescription" class="label text-area">Description:</label>
+                    <br>
+                    <textarea id="projectDescription" required></textarea>
+                    <br>
+                    <label for="projectLink" class="label">Project Link:</label>
+                    <br>
+                    <input type="text" id="projectLink" required>
+                    <br>
+                    <button type="submit" class="custom-outline-button">Add Project</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="aboutSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">About</h1>
+                    <p class="wcu-section-description">
+                        My name is Md Fajil Ansari. I am from Bokaro (Jharkhand). I have lernt programing from Nxtwave. In Nxtwave I have lernt frontend developing skill. For the frontend I have lernt HTML, CSS, JAVASCRIPT and REACT JS .
+                        I have also lernt backend for the backend I have lernt Mysql and Node js.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-secton-card" id="projectSection">
+        <h1 class="record-heading">Project</h1>
+        <div class="record-image-container d-flex flex-row">
+            <img src="https://img.freepik.com/free-photo/top-view-fried-potatoes-with-seasonings-bread-loafs-different-vegetables-dark-desk_140725-115312.jpg?w=740&t=st=1704390850~exp=1704391450~hmac=5a43f52c816ff07a670594f5cf44bd46420d88a4191b313b197d1c6b1e2b2bb7" class="image" />
+            <div class="record-text-container">
+                <h1 class="record-sub-heading">Food Munch</h1>
+                <P class="record">
+                    This is a food munch responsive webpage. where user see the details of
+                    this resturent and also see food list and offers.
+                </P>
+                <button class="view-det">View Project</button>
+            </div>
+        </div>
+        <div class="record-image-container d-flex flex-row mt-3">
+            <div class="record-text-container">
+                <h1 class="record-sub-heading">Todo List</h1>
+                <P class="record">
+                    This is a Todo List dynamic webpage. where user maintain own add skill and also
+                    delete function in this webpage.
+
+                </P>
+                <button class="view-det">View Project</button>
+            </div>
+            <img src="https://img.freepik.com/free-vector/morning-routine-checklist-instagram-story_23-2148689619.jpg?w=740&t=st=1704423227~exp=1704423827~hmac=02756e104c426b185d77129bcf1f3eea2d9990e101795bccb4412875ccd88ba3" class="image" />
+        </div>
+        <div class="record-image-container d-flex flex-row mt-3">
+            <img src="https://img.freepik.com/free-vector/flat-design-course-app-collection_52683-45868.jpg?w=740&t=st=1704423315~exp=1704423915~hmac=ec269fdd6aca8633f946571b20c4c81448859aa11059b126411006b34f6e26c7" class="image" />
+            <div class="record-text-container">
+                <h1 class="record-sub-heading">Jobby App</h1>
+                <P class="record">
+                    In this application user find jobs accourding to own skill. In this application
+                    filter is present where user find jobs using filter based on salary range, skill and
+                    recent posted jobs.
+                </P>
+                <button class="view-det">View Project</button>
+            </div>
+        </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="contactSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <section id="contact">
+                        <h2>Contact Me</h2>
+                        Phone no.:7488317063
+                        <p>Email: fajil335@gmail.com</p>
+                        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+
+</html>
